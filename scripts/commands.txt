@@ -170,3 +170,4 @@
   170  cd /var/www/html
   171  ll
   172  history > /opt/php-aws-codepipeline/scripts/commands.txt
+ended
