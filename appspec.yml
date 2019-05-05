@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /opt/webappfinal
+hooks:
+  BeforeInstall:
+    - location: scripts/script.sh
+      timeout: 300
+      runas: root
